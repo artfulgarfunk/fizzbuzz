@@ -20,4 +20,9 @@ describe 'fizzbuzz' do
             expect(fizzbuzz(2)).to eq 2
             expect(fizzbuzz(11)).to eq 11
     end
+
+    it 'does the above' do
+    		expect(15.fizzbuzz_zz).to eq 'fizzbuzz' 
+    		expect(5.fizzbuzz_zz).to eq 'buzz'
+    end 
 end 
